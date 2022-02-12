@@ -15,8 +15,8 @@ export default function App() {
   return (
     <div className="App">
       <h1>{account}</h1>
-      <button>Deposit</button>
-      <button>Withdraw</button>
+      <button onClick={() => depositMoney(2000)}>Deposit</button>
+      <button onClick={() => withdrawMoney(2000)}>Withdraw</button>
     </div>
   );
 }
